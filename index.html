@@ -55,6 +55,14 @@
 				<img src="/dist/images/trait_use.png">
 			</section>
 			<section>
+				<h3>trait using - return</h3>
+				<img src="/dist/images/trait_use_return.png">
+			</section>
+			<section>
+				<h3>syntax sugar</h3>
+				<img src="/dist/images/trait_param_syntax_sugar.png">
+			</section>
+			<section>
 				<h3>impl external trait</h3>
 				<img src="/dist/images/impl_external_trait.png" height="300px">
 				<img src="/dist/images/impl_external_trait_result.png">
@@ -68,6 +76,40 @@
 				<h3>orphan rule</h3>
 				<img src="/dist/images/orphan_rule.png">
 				<img src="/dist/images/orphan_rule_error.png">
+			</section>
+			<section>
+				<h2>Итоги</h2>
+				<ul>
+					<li>трейты сообщают компилятору, какой функциональностью обладает тип</li>
+					<li>трейты можно использовать как ограничение дженерик типов</li>
+					<li>можно использовать синтаксический сахар с impl</li>
+					<li>можно реализовать любой трейт для любого типа, если не нарушается orphan rule</li>
+				</ul>
+			</section>
+			<section>
+				<h1>DST</h1>
+				<p>(dynamically sized types)</p>
+			</section>
+			<section>
+				<h3>&str example</h3>
+				<img src="/dist/images/str_example.png">
+				<img src="/dist/images/str_example_error.png">
+			</section>
+			<section>
+				<h3>DST vector</h3>
+				<img src="/dist/images/trait_use.png">
+			</section>
+			<section>
+				<h3>trait objects</h3>
+				<img src="/dist/images/trait_objects.png">
+			</section>
+			<section>
+				<h2>Итоги</h2>
+				<ul>
+					<li>DST нужны, когда компилятору неизвестен размер заранее</li>
+					<li>trait objects нельзя использовать без умных указателей или ссылок</li>
+					<li>trait objects можно использовать для коллекций с разным размером типов</li>
+				</ul>
 			</section>
 		</div>
 	</div>
